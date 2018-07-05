@@ -1,0 +1,28 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "keywords": "",
+  "author": "",
+  "license": "ISC",
+  "registry": "https://registry.npm.taobao.org/",
+  "scripts": {
+    "build": "fib-typify src -o lib"
+  },
+  "ci": {
+    "type": "travis",
+    "version": [
+      "0.21.0",
+      "0.22.0",
+      "0.23.0",
+      "0.24.0",
+      "0.25.0"
+    ]
+  },
+  "devDependencies": {
+    "@fibjs/ci": "^2.1.0",
+    "@types/fibjs": "^0.25.2",
+    "fib-typify": "^0.2.0"
+  }
+}
