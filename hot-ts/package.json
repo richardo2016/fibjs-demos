@@ -1,0 +1,15 @@
+{
+  "name": "hot-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fibjs index.ts"
+  },
+  "author": "richardo2016 <richardo2016@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fibjs": "^0.25.2"
+  }
+}
